@@ -1,14 +1,19 @@
-Para compilar e executar o projeto da calculadora, siga estes passos:  - - 
-1.Compilar o programa em C:  
-Abra o terminal na pasta do projeto  
-digite gcc soma.c -o soma.exe  
+# Calculadora em C + Python
 
-2.Executar o programa Python:  
-No mesmo terminal, digite python calculadora.py  
-Vai abrir uma janela com a calculadora  
-Digite dois números nos campos e clique em "Calcular Soma"  
+Projeto de uma calculadora que soma dois números usando:
+- Código em C para calcular a soma.
+- Interface gráfica em Python com Tkinter.
 
-3.O resultado aparecerá embaixo 
+## Estrutura do projeto
+
+- `src/soma.c` → Código em C que recebe dois números via terminal e retorna a soma.
+- `src/calculadora.py` → Interface gráfica em Python que chama o programa C compilado.
 
 
-**Obs: O projeto é simples mas é o que eu sei fazer sem o auxilio de gpt. 
+## Como usar
+
+1. Compile o código C:
+gcc src/soma.c -o src/soma.exe
+
+2.Execute a interface em Python:
+python src/calculadora.py
