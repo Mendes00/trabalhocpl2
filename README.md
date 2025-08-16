@@ -15,5 +15,5 @@ Projeto de uma calculadora que soma dois números usando:
  1. Compile o código C:
  gcc src/soma.c -o src/soma.exe
 
- 2.Execute a interface em Python:
- python src/calculadora.py
+  2.Execute a interface em Python:
+  python src/calculadora.py
