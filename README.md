@@ -12,10 +12,10 @@ Projeto de uma calculadora que soma dois números usando:
 
 ## Como usar
 
- 1. Compile o código C:
+ 1. Compile o código C no terminal:
  gcc src/soma.c -o src/soma.exe
 
-  2.Execute a interface em Python:
+  2.Execute a interface em Python no mesmo terminal:
   python src/calculadora.py
 
 
