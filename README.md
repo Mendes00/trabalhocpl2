@@ -17,3 +17,6 @@ Projeto de uma calculadora que soma dois números usando:
 
   2.Execute a interface em Python:
   python src/calculadora.py
+
+
+**ficou simples mas é o que eu sei fazer sem o auxilio de gpt ):
