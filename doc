@@ -1,0 +1,48 @@
+1. APLICAÇÃO
+Calculadora que soma dois números usando:
+
+Frontend em Python (interface gráfica com Tkinter)
+
+Backend em C (cálculo da soma)
+
+2. IMPLEMENTAÇÃO POR LINGUAGEM
+
+Python (calculadora.py):
+
+Cria a interface gráfica
+
+Coleta os números digitados pelo usuário
+
+Chama o programa em C passando os números como argumentos
+
+Exibe o resultado na tela
+
+C (soma.c):
+
+Recebe os dois números como argumentos de linha de comando
+
+Calcula a soma
+
+Retorna o resultado via saída padrão (stdout)
+
+3. COMUNICAÇÃO ENTRE LINGUAGENS
+Método utilizado: chamada de sistema via subprocess
+
+Fluxo:
+
+Python usa subprocess.run() para executar o binário compilado em C
+
+Passa os números como argumentos (ex: ./soma 5 3)
+
+Programa em C calcula e imprime o resultado
+
+Python captura essa saída e mostra na interface
+
+
+4. ESTRUTURA DE ARQUIVOS
+src/
+soma.c - Código em C
+calculadora.py - Interface Python
+bin/ - Pasta para executável
+docs/ - Documentação
+
